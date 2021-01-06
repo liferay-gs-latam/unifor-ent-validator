@@ -1,0 +1,30 @@
+{
+  "name": "ent-validator",
+  "version": "1.0.0",
+  "description": "AUI Validator Wrapper",
+  "author": "Entelgy Front-end Team",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "js-yaml": "^3.10.0",
+    "standard": "^10.0.3",
+    "standard-loader": "^6.0.1",
+    "webpack": "^3.8.1",
+    "wrapper-webpack-plugin": "^1.0.0",
+    "yml-loader": "^2.1.0"
+  },
+  "publishConfig": {
+    "registry": "http://192.168.0.59/content/repositories/npm/"
+  },
+  "standard": {
+    "globals": [
+      "AUI",
+      "A",
+      "$",
+      "Liferay",
+      "CustomEvent"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+bincode: Tarjeta de crédito no válida
+birth_date:
+cnpj:
+cpf:
+datepicker:
+date_with_format:
+file_size:
+full_name:
+hour:
+less_than_current_date:
+mail_domain:
+max_files:
+max_years_old:
+min_years_old:
+password:
+pattern:
+required: Campo Obligatorio
+select_multiple:
